@@ -1,0 +1,40 @@
+.jumbotron {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#tentang {
+  margin-top: 50px;
+  margin-bottom: 250px;
+}
+
+.col_1 {
+  margin-bottom: 40px;
+  padding-top: 5rem;
+}
+.col_2 {
+  padding-bottom: 4rem;
+}
+
+#projek {
+  margin-top: -300px;
+}
+
+footer {
+  background-color: rgb(8, 105, 146);
+  text-align: center;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.banner {
+  background: url(../img/markus-spiske-hvSr_CVecVI-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 80px;
+  background-position: bottom;
+  color: aliceblue;
+  margin-top: -100px;
+  margin-bottom: -250 px;
+}

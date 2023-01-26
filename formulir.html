@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="alert alert-warning text-center mt-3">FORMULIR PENDAFTARAN MAHASISWA BARU</h2>
+      <form action="connection.php" method="post">
+        <div class="form-group">
+          <label>Nama Lengkap</label>
+          <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Lengkap Anda" />
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control" placeholder="Masukan Email Anda" />
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" name="password" class="form-control" placeholder="Masukan Password  Anda" />
+          <small>Password Minimal 6 karakter serta terdiri dari angka dan huruf</small>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Tempat Lahir</label>
+              <input type="text" name="tempat" class="form-control" placeholder="Masukan Tempat lahir Anda" id="Tempat lahir" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Tanggal Lahir</label>
+              <input type="date" name="tanggal" class="form-control" />
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label>Pilih Jurusan</label>
+          <select class="form-control placeholder=Pilih Jurusan">
+            <option value="1">S1 Informatika</option>
+            <option value="2">S1 Teknologi Informasi</option>
+            <option value="3">S1 Rekayasa Perangkat Lunak</option>
+            <option value="4">S1 Sains Data</option>
+            <option value="5">S1 Kriya Tekstil dan Fashion</option>
+          </select>
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label for="">Alasan Memilih Kampus ini</label>
+          <textarea class="form-control" rows="5"></textarea>
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label>Jenis Kelamin</label><br />
+          <div class="form-check-inline">
+            <input type="radio" name="radio1" id="radio2" class="form-check-input" checked="" value="m" />
+            <label for="">Laki-Laki</label>
+          </div>
+          <div class="form-check-inline">
+            <input type="radio" name="radio1" id="radio2" class="form-check-input" value="f" />
+            <label for="">Perempuan</label>
+          </div>
+        </div>
+        <br />
+
+        <div class="form-group">
+          <label for="">Upload Dokumen</label>
+          <input type="file" name="" id="" class="form-control-file" />
+          <small>Upload file dengan ukuran maksimal 2 MB</small>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Simpan</button>
+        <button type="submit" class="btn btn-danger">Reset</button><br />
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
